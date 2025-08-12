@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- The `lang` attribute on the html tag is crucial for accessibility, as it tells screen readers what language to use. -->
+<html lang="en">
+<head>
+    <!-- The charset meta tag ensures proper character display across browsers. -->
+    <meta charset="UTF-8">
+    <!-- The viewport meta tag is essential for responsive design, making the page look good on all devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- The title tag is vital for both SEO and accessibility, providing a clear title for the browser tab and screen readers. -->
+    <title>Gardening for Beginners: A Simple Guide</title>
+    <!-- The description meta tag is used by search engines to create the snippet shown in search results. -->
+    <meta name="description" content="A simple guide for beginners on how to start a small garden, covering essential tips and basic tools.">
+</head>
+
+<body>
+    <!-- The `header` element represents introductory content or a set of navigational links. -->
+    <header>
+        <!-- The `h1` is the main heading for the entire page, essential for a logical content hierarchy and SEO. -->
+        <h1>Gardening for Beginners</h1>
+        <!-- The `nav` element represents a section of a page whose purpose is to provide navigation links. -->
+        <nav aria-label="Main Navigation">
+            <ul>
+                <!-- `a` tags are used for creating hyperlinks. -->
+                <li><a href="#intro">Getting Started</a></li>
+                <li><a href="#tools">Essential Tools</a></li>
+                <li><a href="#plants">Easy Plants</a></li>
+                <li><a href="#contact">Connect with Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- The `main` element holds the primary content unique to this document. -->
+    <main>
+        <!-- An `article` is an independent, self-contained piece of content. -->
+        <article id="intro">
+            <!-- Headings should be used in a logical order (h1, h2, h3, etc.). -->
+            <h2>Your First Steps to a Thriving Garden</h2>
+            <!-- The `p` element creates a paragraph of text. -->
+            <p>Starting a garden can be a rewarding and relaxing experience. This guide will help you begin with a simple project, whether you have a large backyard or just a small patio space.</p>
+        </article>
+
+        <!-- A `section` represents a thematic grouping of content. -->
+        <section id="tools">
+            <h2>Essential Tools for Your Garden</h2>
+            <!-- The `figure` element is used to encapsulate media content with an optional caption. -->
+            <figure>
+                <!-- `img` tags should always include the `alt` attribute for accessibility. -->
+                <img src="https://placehold.co/600x400/8c7f76/FFFFFF?text=Gardening+Tools" alt="A collection of gardening tools, including a trowel, gloves, and a small watering can.">
+                <!-- The `figcaption` provides a caption for the figure. -->
+                <figcaption>A small set of tools is all you need to begin your gardening journey.</figcaption>
+            </figure>
+            <!-- `ul` and `li` create an unordered list, perfect for listing items. -->
+            <ul>
+                <li><strong>Trowel:</strong> For digging small holes to plant seeds or seedlings.</li>
+                <li><strong>Gardening Gloves:</strong> To protect your hands from dirt, thorns, and blisters.</li>
+                <li><strong>Watering Can:</strong> To provide water to your plants without over-saturating the soil.</li>
+            </ul>
+        </section>
+
+        <section id="plants">
+            <h2>Easy Plants for First-Timers</h2>
+            <p>Choosing the right plants is key to a successful start. Herbs like basil and mint are great choices because they are resilient and grow quickly. Leafy greens such as lettuce and spinach are also easy to grow in containers. Starting with these simple options can help you gain confidence before moving on to more complex plants.</p>
+        </section>
+    </main>
+
+    <!-- The `footer` element contains information about the author, copyright data, or related documents. -->
+    <footer id="contact">
+        <!-- `small` is a semantic element used for side comments and copyright notices. -->
+        <small>&copy; 2024 Gardening for Beginners. All rights reserved.</small>
+        <!-- The `address` element indicates that the enclosed HTML provides contact information. -->
+        <address>
+            <a href="mailto:garden.help@example.com">garden.help@example.com</a>
+        </address>
+    </footer>
+</body>
+</html>
